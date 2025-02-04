@@ -1,0 +1,14 @@
+/* jQuery UI styling */
+.ui-state-hover {
+    background-color: #e2e6ea !important;
+}
+
+.ui-state-active {
+    background-color: #d6d8db !important;
+}
+
+/* Modal styling */
+#addUserModal {
+    display: none;
+    z-index: 1050; /* Ensure the modal is on the top layer */
+}

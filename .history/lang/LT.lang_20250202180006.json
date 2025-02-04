@@ -1,0 +1,16 @@
+{
+    "dashboard": "Prietaisų skydelis",
+    "shifts_manager": "Pamainų valdymas",
+    "team_manager": "Komandos valdymas",
+    "system_settings": "Sistemos nustatymai",
+    "about": "Apie",
+    "profile": "Profilis",
+    "settings": "Nustatymai",
+    "activity_log": "Veiklos žurnalas",
+    "logout": "Atsijungti",
+    "ready_to_leave": "Pasiruošę išeiti?",
+    "select_logout": "Pasirinkite \"Atsijungti\" žemiau, jei esate pasiruošę baigti dabartinę sesiją.",
+    "cancel": "Atšaukti",
+    "loading": "Įkeliama...",
+    "error_loading_content": "Klaida įkeliant turinį."
+}

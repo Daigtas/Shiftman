@@ -1,0 +1,124 @@
+.table-responsive {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%; /* Ensure the table fits the page */
+}
+
+.table th, .table td {
+    padding: 0.15rem; /* Lowered padding */
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 0.75rem; /* Lowered font size */
+    border: 1px solid #dee2e6; /* Add borders */
+    width: calc(100% / 32); /* Ensure even size for all columns */
+}
+
+.table th.day, .table td.day {
+    width: 3%; /* Ensure even size for day columns */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+.border-left-bold {
+    border-left: 3px solid #343a40 !important;
+}
+
+.border-right-bold {
+    border-right: 3px solid #343a40 !important;
+}
+
+.table td:hover,
+.table th:hover {
+    cursor: pointer;
+    position: relative;
+}
+
+.table td:hover::before,
+.table th:hover::before,
+.table td:hover::after,
+.table th:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+/* Cell states */
+.cell-red {
+    background-color: red !important;
+}
+
+.cell-green {
+    background-color: green !important;
+}
+
+.cell-blue {
+    background-color: blue !important;
+}
+
+.cell-orange {
+    background-color: orange !important;
+}
+
+/* .cell-mesh-45 {
+    background: linear-gradient(45deg, rgba(255,255,255,0) 9%, black 10%, rgba(255,255,255,0) 11%, rgba(255,255,255,0) 19%, black 20%, rgba(255,255,255,0) 21%, rgba(255,255,255,0) 29%, black 30%, rgba(255,255,255,0) 31%, rgba(255,255,255,0) 39%, black 40%, rgba(255,255,255,0) 41%, rgba(255,255,255,0) 49%, black 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 59%, black 60%, rgba(255,255,255,0) 61%, rgba(255,255,255,0) 69%, black 70%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 79%, black 80%, rgba(255,255,255,0) 81%, rgba(255,255,255,0) 89%, black 90%, rgba(255,255,255,0) 91%);
+    background-size: 10px 10px;
+} */
+
+.cell-mesh-horizontal-vertical {
+    /* background-image: linear-gradient(0deg, rgba(255,255,255,0) 10%, black 10%, rgba(255,255,255,0) 11%, rgba(255,255,255,0) 20%, black 20%, rgba(255,255,255,0) 21%, rgba(255,255,255,0) 30%, black 30%, rgba(255,255,255,0) 31%, rgba(255,255,255,0) 40%, black 40%, rgba(255,255,255,0) 41%, rgba(255,255,255,0) 50%, black 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 60%, black 60%, rgba(255,255,255,0) 61%, rgba(255,255,255,0) 70%, black 70%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 80%, black 80%, rgba(255,255,255,0) 81%, rgba(255,255,255,0) 90%, black 90%, rgba(255,255,255,0) 91%),
+    linear-gradient(90deg, rgba(255,255,255,0) 10%, black 10%, rgba(255,255,255,0) 11%, rgba(255,255,255,0) 20%, black 20%, rgba(255,255,255,0) 21%, rgba(255,255,255,0) 30%, black 30%, rgba(255,255,255,0) 31%, rgba(255,255,255,0) 40%, black 40%, rgba(255,255,255,0) 41%, rgba(255,255,255,0) 50%, black 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 60%, black 60%, rgba(255,255,255,0) 61%, rgba(255,255,255,0) 70%, black 70%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 80%, black 80%, rgba(255,255,255,0) 81%, rgba(255,255,255,0) 90%, black 90%, rgba(255,255,255,0) 91%);
+    background-size: 10px 10px; */
+    background-color: #808080;
+}
+
+/* row hover */
+.table>tbody>tr:hover {
+    background-color: #e70c0c;
+}
+
+/* Easy Mode Button */
+#easyModeButton {
+    cursor: pointer;
+}
+
+/* Save Button */
+#saveButton {
+    cursor: pointer;
+}
+
+/* Darker header row */
+.table thead th {
+    background-color: #343a40 !important;
+    color: #ffffff;
+    text-align: center; /* Center all text in header row */
+}
+/* Weekenc columns styling */
+.table thead th.weekend {
+    background-color: #808080 !important;
+}
+.table tbody td.weekend {
+    border: 0.1px solid #bbbbbb !important;
+}
+.btn-success { background-color: #28a745 !important; }
+.cell-mesh-45 { 
+    background-image: repeating-linear-gradient(45deg, 
+        transparent 0px, 
+        transparent 4px, 
+        rgba(0,0,0,0.1) 4px, 
+        rgba(0,0,0,0.1) 8px
+    );
+}
