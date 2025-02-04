@@ -1,0 +1,2 @@
+# Shiftman
+Custom admin panel
